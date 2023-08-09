@@ -1,0 +1,79 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #dbdde6;
+  background-image: url(../img/image.jpg);
+  margin: 0;
+  padding: 50px;
+}
+h1{
+      color: #93da47;
+      text-align:center;
+      background-color: #1c1a1aae;
+      border-radius: 5px;
+}
+h6 {
+      color: #05bd11d3; 
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.container {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      gap: 30px;
+      flex-wrap: wrap;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #c2ac1a88;
+      border-radius: 50px;
+      padding: 50px;
+      box-shadow:0 10px 30px rgba( 0, 28, 28, 0.757);
+      font-size: 25px;
+    }
+.boton {
+      display: inline-block;
+      padding: 14px 20px;
+      background-color: #1b201f;
+      color: #f00e83;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: all 0.9s ease-in-out;
+      
+}
+ .boton:hover {
+      background-color: #07be72;
+      padding: 10px 20px;
+}    
+  /*UTIL PARA REPASAR*/
+/* estilos para los formularios */
+input {
+      width: 90%;
+      padding: 20px;
+      font-size: 20px;
+      margin-bottom: 25px;
+      border-radius: 25px;
+      border: 1px solid #3e768a;
+}
+
+#resp {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 80%;
+      margin: 0 auto;
+      color:#140e0e;
+      font-weight: 900;
+      background-color: #3b8ca2;
+      border-radius: 30px;
+      padding: 15px;
+      box-shadow: 0 5px 10px rgba(161, 15, 15, 1);
+    }
+.botones{
+      display: flex;
+      justify-content:center;
+      gap: 10px;
+      margin-bottom: 5px;
+     
+}   
